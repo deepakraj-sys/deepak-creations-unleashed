@@ -16,9 +16,25 @@ export function HeroSection() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+            className="mb-8"
+          >
+            <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-8">
+              <img
+                src="/lovable-uploads/b6b6592d-d290-4481-8c3d-39b3fa78236e.png"
+                alt="Deepak Raj R"
+                className="w-full h-full rounded-full object-cover border-4 border-primary/20 shadow-elegant"
+              />
+              <div className="absolute inset-0 rounded-full border-4 border-primary/40 animate-pulse"></div>
+            </div>
+          </motion.div>
+
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="mb-12"
           >
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4">
