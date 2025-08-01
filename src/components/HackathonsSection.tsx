@@ -40,6 +40,27 @@ const hackathons = [
     bgColor: "bg-blue-500/10"
   },
   {
+    name: "NIT Hamirpur - Roboweek 3.0",
+    position: "Finalist",
+    icon: Target,
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10"
+  },
+  {
+    name: "ITM Gwalior - Singlethon",
+    position: "Finalist",
+    icon: Target,
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10"
+  },
+  {
+    name: "KIIT University - Ideathon 2025",
+    position: "Finalist",
+    icon: Target,
+    color: "text-blue-500",
+    bgColor: "bg-blue-500/10"
+  },
+  {
     name: "AXIS'25 - Insomnia",
     position: "Finalist",
     icon: Target,
@@ -50,10 +71,8 @@ const hackathons = [
 
 const participations = [
   "CodeOholics Community Hack-4-Mini 2.0",
-  "NIT Hamirpur - Roboweek 3.0",
   "ByteVerse 7.0 – NIT Patna",
-  "IIT Mandi - FrostHack 2025",
-  "ITM Gwalior - Singlethon"
+  "IIT Mandi - FrostHack 2025"
 ];
 
 export function HackathonsSection() {

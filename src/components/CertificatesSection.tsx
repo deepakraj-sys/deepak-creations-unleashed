@@ -72,13 +72,6 @@ const certificates = [
   },
   {
     id: 10,
-    title: "KIIT University - Ideathon 2025 – Finalist",
-    issuer: "KIIT University",
-    image: certificateImage,
-    description: "Finalist in Ideathon 2025 organized by KIIT University"
-  },
-  {
-    id: 11,
     title: "AXIS'25 - Insomnia – Finalist",
     issuer: "Visvesvaraiya National Institute of Technology",
     image: "/lovable-uploads/a4271ed1-8110-4d05-9ecb-0d65ead3ade3.png",
