@@ -5,35 +5,84 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Award, Maximize2 } from "lucide-react";
 import certificateImage from "@/assets/certificate.png";
 
-// Sample certificates data - you can expand this with more certificates
+// Certificate data
 const certificates = [
   {
     id: 1,
-    title: "Professional Achievement Certificate",
-    issuer: "Tech Excellence Institute",
-    image: certificateImage,
-    description: "Recognition for outstanding technical achievements and innovation"
+    title: "CodeOholics Community Hack-4-Mini 2.0",
+    issuer: "CodeOholics Community",
+    image: "/lovable-uploads/d546d009-72e1-4475-a202-297f47742790.png",
+    description: "National hackathon participation under the theme 'One Nation, One Code, Infinite Innovation'"
   },
   {
     id: 2,
-    title: "Leadership Excellence Award",
-    issuer: "Leadership Academy",
-    image: certificateImage,
-    description: "Awarded for exceptional leadership skills and project management"
+    title: "NIT Hamirpur - Roboweek 3.0",
+    issuer: "National Institute of Technology, Hamirpur",
+    image: "/lovable-uploads/9061fb39-c96d-484c-84c5-5fd029a6d9ef.png",
+    description: "Hackathon participation in Roboweek 3.0 organized by NIT Hamirpur"
   },
   {
     id: 3,
-    title: "Innovation Award",
-    issuer: "Innovation Hub",
-    image: certificateImage,
-    description: "Recognition for innovative solutions and creative problem solving"
+    title: "ByteVerse 7.0 – NIT Patna",
+    issuer: "National Institute of Technology, Patna",
+    image: "/lovable-uploads/6b4985f2-59c0-4ae7-b64d-20ef060f25d8.png",
+    description: "Participation in ByteVerse 7.0 Hackathon organized by NIT Patna"
   },
   {
     id: 4,
-    title: "Full Stack Development",
-    issuer: "Code Institute",
+    title: "IIT Mandi - FrostHack 2025",
+    issuer: "Madhav Institute of Technology and Science (MITS), Gwalior",
+    image: "/lovable-uploads/5fd239bd-b91c-4d61-9ffc-5c9df5ca6459.png",
+    description: "HackOrbit 2025 - National Hackathon participation"
+  },
+  {
+    id: 5,
+    title: "ITM Gwalior - Singlethon",
+    issuer: "ABV-IIITM, Gwalior",
+    image: "/lovable-uploads/a1cc73fa-2ec7-4a11-955d-ef8350b68bfe.png",
+    description: "Hacksagon 2025 hackathon participation"
+  },
+  {
+    id: 6,
+    title: "SV Scientifica'24 – 🥉 3rd Prize",
+    issuer: "College Crave Pvt. Ltd.",
+    image: "/lovable-uploads/a9fd89d1-15ef-49ca-a7af-b521e5c20f85.png",
+    description: "Crave the Code hackathon participation organized by College Crave"
+  },
+  {
+    id: 7,
+    title: "Vidya Mandir Reflections'24 – 🥈 2nd Prize",
+    issuer: "Educational Institution",
+    image: "/lovable-uploads/113d46eb-e051-433e-9c84-ad429a1dc822.png",
+    description: "AI Working Model competition - 3rd Prize in XI & XII Category"
+  },
+  {
+    id: 8,
+    title: "ATL Tinker Fest – 🥇 1st Place",
+    issuer: "SNEH International School, Delhi",
+    image: "/lovable-uploads/0e8c9fe1-2b98-4ae4-91e5-dfe776e97cba.png",
+    description: "First Position in ATAL TinkerFest 2024 competition"
+  },
+  {
+    id: 9,
+    title: "Chettinad Vidyashram Culturals Hackathon – 🥉 3rd Place",
+    issuer: "Educational Institution",
     image: certificateImage,
-    description: "Completion of comprehensive full stack development program"
+    description: "Third place achievement in Chettinad Vidyashram Culturals Hackathon"
+  },
+  {
+    id: 10,
+    title: "CSS Battle – Army Institute of Technology – Finalist",
+    issuer: "Army Institute of Technology, Pune",
+    image: "/lovable-uploads/f2527ef9-fdef-4730-bff9-3e98d85175fb.png",
+    description: "Finalist in Online Round of CSS Battle organized by Army Institute of Technology"
+  },
+  {
+    id: 11,
+    title: "AXIS'25 - Insomnia – Finalist",
+    issuer: "Visvesvaraiya National Institute of Technology",
+    image: "/lovable-uploads/a4271ed1-8110-4d05-9ecb-0d65ead3ade3.png",
+    description: "Finalist in Insomnia hackathon organized by VNIT as part of AXIS'25"
   }
 ];
 
