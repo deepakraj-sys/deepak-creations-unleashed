@@ -65,20 +65,13 @@ const certificates = [
   },
   {
     id: 9,
-    title: "Chettinad Vidyashram Culturals Hackathon – 🥉 3rd Place",
-    issuer: "Educational Institution",
-    image: certificateImage,
-    description: "Third place achievement in Chettinad Vidyashram Culturals Hackathon"
-  },
-  {
-    id: 10,
     title: "CSS Battle – Army Institute of Technology – Finalist",
     issuer: "Army Institute of Technology, Pune",
     image: "/lovable-uploads/f2527ef9-fdef-4730-bff9-3e98d85175fb.png",
     description: "Finalist in Online Round of CSS Battle organized by Army Institute of Technology"
   },
   {
-    id: 11,
+    id: 10,
     title: "AXIS'25 - Insomnia – Finalist",
     issuer: "Visvesvaraiya National Institute of Technology",
     image: "/lovable-uploads/a4271ed1-8110-4d05-9ecb-0d65ead3ade3.png",
