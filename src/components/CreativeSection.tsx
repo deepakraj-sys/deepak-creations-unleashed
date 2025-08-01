@@ -136,18 +136,18 @@ export function CreativeSection() {
           {/* Main Reel Display */}
           <div className="relative mb-8">
             <div className="flex justify-center">
-              <div className="w-full max-w-2xl aspect-[9/16] rounded-lg overflow-hidden border border-border bg-background shadow-lg">
+              <div className="w-full max-w-sm aspect-[9/16] rounded-lg overflow-hidden border border-border bg-gray-900 shadow-lg">
                 <iframe
                   key={instagramReels[currentReelIndex].embedId}
-                  src={`https://www.instagram.com/p/${instagramReels[currentReelIndex].embedId}/embed/captioned/?cr=1&v=14&wp=658&rd=https%3A%2F%2Fexample.com&rp=%2F`}
-                  className="w-full h-full bg-background"
+                  src={`https://www.instagram.com/p/${instagramReels[currentReelIndex].embedId}/embed/captioned/?cr=1&v=14&wp=400&rd=https%3A%2F%2Fexample.com&rp=%2F`}
+                  className="w-full h-full"
                   frameBorder="0"
                   scrolling="no"
                   allowTransparency={true}
                   title={instagramReels[currentReelIndex].title}
                   style={{ 
-                    backgroundColor: 'hsl(var(--background))',
-                    filter: 'invert(0)',
+                    backgroundColor: '#1a1a1a',
+                    colorScheme: 'dark'
                   }}
                 />
               </div>
