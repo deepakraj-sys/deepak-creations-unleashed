@@ -183,33 +183,6 @@ export function CreativeSection() {
             ))}
           </div>
 
-          {/* Reel Thumbnails */}
-          <div className="grid grid-cols-4 gap-4 mb-8">
-            {instagramReels.map((reel, index) => (
-              <button
-                key={reel.id}
-                onClick={() => goToReel(index)}
-                className={`relative aspect-[9/16] rounded-lg overflow-hidden border-2 transition-all duration-300 ${
-                  index === currentReelIndex
-                    ? "border-primary scale-105"
-                    : "border-border hover:border-muted-foreground"
-                }`}
-              >
-                <div className="w-full h-full bg-muted flex items-center justify-center">
-                  <div className="text-center">
-                    <Instagram className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
-                    <p className="text-xs text-muted-foreground font-medium">Reel {index + 1}</p>
-                  </div>
-                </div>
-                {index === currentReelIndex && (
-                  <div className="absolute inset-0 bg-primary/20 flex items-center justify-center">
-                    <div className="w-4 h-4 bg-primary rounded-full"></div>
-                  </div>
-                )}
-              </button>
-            ))}
-          </div>
-
           {/* Current Reel Info */}
           <div className="text-center">
             <p className="text-muted-foreground mb-4">
