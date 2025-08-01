@@ -47,6 +47,13 @@ export function Navigation() {
       {/* Desktop Navigation */}
       <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 hidden md:block">
         <div className="flex items-center gap-2 px-6 py-3 bg-background/80 backdrop-blur-md border border-primary/20 rounded-full shadow-elegant">
+          <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-primary/20 mr-2">
+            <img
+              src="/lovable-uploads/b6b6592d-d290-4481-8c3d-39b3fa78236e.png"
+              alt="Deepak Raj R"
+              className="w-full h-full object-cover"
+            />
+          </div>
           {navItems.map((item) => (
             <Button
               key={item.id}
