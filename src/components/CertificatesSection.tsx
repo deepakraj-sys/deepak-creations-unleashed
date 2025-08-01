@@ -16,10 +16,10 @@ const certificates = [
   },
   {
     id: 2,
-    title: "NIT Hamirpur - Roboweek 3.0",
+    title: "NIT Hamirpur - Roboweek 3.0 – Finalist",
     issuer: "National Institute of Technology, Hamirpur",
     image: "/lovable-uploads/9061fb39-c96d-484c-84c5-5fd029a6d9ef.png",
-    description: "Hackathon participation in Roboweek 3.0 organized by NIT Hamirpur"
+    description: "Finalist in Hackathon of Roboweek 3.0 organized by NIT Hamirpur"
   },
   {
     id: 3,
@@ -37,10 +37,10 @@ const certificates = [
   },
   {
     id: 5,
-    title: "ITM Gwalior - Singlethon",
+    title: "ITM Gwalior - Singlethon – Finalist",
     issuer: "ABV-IIITM, Gwalior",
     image: "/lovable-uploads/a1cc73fa-2ec7-4a11-955d-ef8350b68bfe.png",
-    description: "Hacksagon 2025 hackathon participation"
+    description: "Finalist in Hacksagon 2025 hackathon"
   },
   {
     id: 6,
@@ -72,6 +72,13 @@ const certificates = [
   },
   {
     id: 10,
+    title: "KIIT University - Ideathon 2025 – Finalist",
+    issuer: "KIIT University",
+    image: certificateImage,
+    description: "Finalist in Ideathon 2025 organized by KIIT University"
+  },
+  {
+    id: 11,
     title: "AXIS'25 - Insomnia – Finalist",
     issuer: "Visvesvaraiya National Institute of Technology",
     image: "/lovable-uploads/a4271ed1-8110-4d05-9ecb-0d65ead3ade3.png",
