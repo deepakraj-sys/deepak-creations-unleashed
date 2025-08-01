@@ -60,7 +60,7 @@ export function HeroSection() {
                     <div>
                       <h4 className="text-lg font-semibold text-foreground">B.Tech Electronics and Communication Engineering (Core)</h4>
                       <p className="text-primary font-medium">SRM Institute of Science and Technology, Kattankulathur</p>
-                      <p className="text-muted-foreground text-sm">Currently Pursuing</p>
+                      <p className="text-muted-foreground text-sm">2025 - 2029</p>
                     </div>
                   </div>
                   
@@ -70,7 +70,7 @@ export function HeroSection() {
                     <div>
                       <h4 className="text-lg font-semibold text-foreground">Class 12 (CBSE)</h4>
                       <p className="text-primary font-medium">DAV Boys Senior Secondary School, Chennai</p>
-                      <p className="text-muted-foreground text-sm">Completed</p>
+                      <p className="text-muted-foreground text-sm">2023 - 2024</p>
                     </div>
                   </div>
                   
