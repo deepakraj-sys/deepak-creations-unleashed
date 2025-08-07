@@ -26,7 +26,7 @@ const hackathons = [
     bgColor: "bg-orange-500/10"
   },
   {
-    name: "Chettinad Vidyashram Culturals Hackathon",
+    name: "Maithri'25 - Chettinad Vidyashram Culturals Hackathon",
     position: "3rd Place",
     icon: Medal,
     color: "text-orange-500",
